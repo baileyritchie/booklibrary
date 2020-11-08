@@ -1,0 +1,8 @@
+1. Create a static rendering of the data
+  ☐ create a HTML page/form with static data
+  ☐ create a static data (arr of 3 objects) to represent books in a library
+2. Connect some static data with JS interactivity
+  ☐ connect static HTML page to JS through script.js
+3. connect static data with OOP books/ library
+  ☐ create functions/methods that create and delete book objects
+  ☐ create functions/methods that create   
