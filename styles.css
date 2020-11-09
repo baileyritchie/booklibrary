@@ -1,0 +1,31 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+}
+.library {
+  background-color: pink;
+  font-size: large;
+  text-align: center;
+  list-style-type: none;
+}
+.add-book {
+  margin: 20px;
+  background-color: cyan;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.book-card {
+  display: flex;
+  flex-direction: row;
+  background-color: darkmagenta;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  align-content: space-between;
+  justify-content: space-evenly;
+
+}
+.book-prop {
+  padding: 2px;
+}
