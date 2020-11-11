@@ -38,6 +38,17 @@ function addBookToLibrary(){
   // create the function when form submission is available
   // push the book to the library through the use of an arrow function
   // use document.getElementById("book-btn").addEventListener("click", (e) => {}  );
+  let form = document.getElementById("form-id");
+  form.addEventListener("submit", function (evt) {
+    evt.preventDefault();
+    let book = {
+      title: document.getElementById("title").value,
+      author: document.getElementById("author").value,
+      pages: document.getElementById("pages").value,
+      read: false //figure out how to collect data from radio
+    };
+    myLibrary.push(book);
+  });
 }
 
 function initializeLibrary(){
@@ -46,8 +57,9 @@ function initializeLibrary(){
     createBookHTML(book);
   });
 }
+
 let book1 = new Book('test','bailey',123,true);
 myLibrary.push(book1);
 initializeLibrary();
-
-console.log(myLibrary);
+addBookToLibrary();
+// need a way to watch for changes
