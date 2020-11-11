@@ -1,13 +1,17 @@
 .container{
   display: flex;
-  flex-direction: column;
+  flex-direction: column ;
   padding-bottom: 20px;
+  justify-content: center;
+  align-items: center;
 }
 .library {
-  background-color: pink;
+  width:600px;
   font-size: large;
   text-align: center;
   list-style-type: none;
+  border-radius: 4px;
+  background-color: pink;
 }
 .add-book {
   margin: 20px;
@@ -19,13 +23,40 @@
 .book-card {
   display: flex;
   flex-direction: row;
-  background-color: darkmagenta;
   padding-top: 20px;
   padding-bottom: 20px;
   align-content: space-between;
   justify-content: space-evenly;
-
 }
 .book-prop {
   padding: 2px;
+}
+.book-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: stretch;
+  width:225px; /* change with size of device */
+  background-color: orange;
+  padding:8px;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+.form{
+  display: flex;
+  height: 200px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: stretch;
+}
+.form-element {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  padding:2px;
+}
+.form-button {
+  /* do something to align the button ? */
+  margin-top: 8px;
+  margin-bottom: 8px;
+  padding:2px;
 }

@@ -30,12 +30,14 @@ function createBookHTML(bookObj) {
       <div class="book-prop">${bookObj.author}</div>
       <div class="book-prop">${bookObj.pages}</div>
       <div class="book-prop">${bookObj.read}</div>
-      <button>Mark as Read</button>
+      <button>Read</button>
     </div>
     `;
 }
 function addBookToLibrary(){
   // create the function when form submission is available
+  // push the book to the library through the use of an arrow function
+  // use document.getElementById("book-btn").addEventListener("click", (e) => {}  );
 }
 
 function initializeLibrary(){
